@@ -1,6 +1,6 @@
 # AI Quiz Generator
 
-A React-based web application that generates multiple-choice quizzes automatically from uploaded PDF files using **Google Generative AI (Gemini API)**. Users can take the quiz interactively, see hints for wrong answers, and review all questions at the end.
+A React-based web application that generates multiple-choice quizzes automatically from uploaded PDF files using  Users can take the quiz interactively, see hints for wrong answers, and review all questions at the end
 
 ---
 
