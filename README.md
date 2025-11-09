@@ -1,12 +1,35 @@
-# React + Vite
+# AI Quiz Generator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React-based web application that generates multiple-choice quizzes automatically from uploaded PDF files using **Google Generative AI (Gemini API)**. Users can take the quiz interactively, see hints for wrong answers, and review all questions at the end.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+- Upload PDF files as quiz sources.
+- Generate multiple-choice questions (A–D) with correct answers and hints.
+- Interactive quiz UI:
+  - Select an answer.
+  - Immediate feedback (green/red).
+  - Hint for wrong answers.
+  - Next / Finish button to navigate questions.
+- View all questions and answers at the end of the quiz.
+- Loading animation while quiz is being generated.
+- Retry mechanism for API overloads (503 errors).
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Technologies Used
+
+- **React** – Frontend framework for interactive UI.
+- **Tailwind CSS** – Styling and responsive design.
+- **React Router DOM** – Navigation and location handling.
+- **Google Generative AI (Gemini API)** – AI-based quiz generation.
+- **Vite** – Fast React build tool (optional).
+
+---
+
+ 
+ 
+git clone https://github.com/your-username/ai-quiz-generator.git
+cd ai-quiz-generator
