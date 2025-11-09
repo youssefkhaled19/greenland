@@ -2,7 +2,7 @@
 
 A React-based web application that generates multiple-choice quizzes automatically from uploaded PDF files using  Users can take the quiz interactively, see hints for wrong answers, and review all questions at the end
 
----
+----
 
 ## Features
 
